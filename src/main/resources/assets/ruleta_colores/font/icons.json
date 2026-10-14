@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "ruleta_colores:font/join_icon.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\uE000"]
+    }
+  ]
+}

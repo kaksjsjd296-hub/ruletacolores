@@ -1,0 +1,12 @@
+{
+  "death_animation": {
+    "sounds": [
+      "ruleta_colores:death_animation"
+    ]
+  },
+  "spin": {
+    "sounds": [
+      "ruleta_colores:spin"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ruleta_colores:item/ruleta_aleatorio"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "ruleta_colores:item/ruleta_rojo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "ruleta_colores:item/ruleta_naranja"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "ruleta_colores:item/ruleta_amarillo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "ruleta_colores:item/ruleta_verde"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "ruleta_colores:item/ruleta_cian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "ruleta_colores:item/ruleta_azul"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "ruleta_colores:item/ruleta_morada"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "ruleta_colores:item/ruleta_rosa"
+    }
+  ]
+}

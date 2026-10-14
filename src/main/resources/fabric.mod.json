@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ruleta_colores",
+  "version": "${version}",
+  "name": "Ruleta de Colores",
+  "description": "Ruleta de colores con menu (/ruleta menu), notificaciones, animacion de muerte para todos, modo espectador con cabeza memorial y mensaje de conexion.",
+  "authors": ["Club Pala"],
+  "license": "MIT",
+  "icon": "assets/ruleta_colores/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ruleta.colores.RuletaColores"],
+    "client": ["com.ruleta.colores.client.RuletaColoresClient"]
+  },
+  "mixins": ["ruleta_colores.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
