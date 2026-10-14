@@ -84,7 +84,7 @@ public final class SpinAnimation {
             if (lastSector != Integer.MIN_VALUE && sector != lastSector) {
                 float pitch = 1.9f - 0.9f * Math.min(1f, age / spinTicks);
                 MinecraftClient.getInstance().getSoundManager().play(
-                        PositionedSoundInstance.master(SoundEvents.UI_BUTTON_CLICK, pitch, cfg.volume() / 100f));
+                        PositionedSoundInstance.master(SoundEvents.UI_BUTTON_CLICK.value(), pitch, cfg.volume() / 100f));
             }
             lastSector = sector;
         }
